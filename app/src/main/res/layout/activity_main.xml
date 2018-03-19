@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.brioal.cleanableedittext.MainActivity">
+
+    <com.brioal.cleanableedittextview.ClearEditText
+        android:id="@+id/main_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="输入用户名"/>
+
+    <com.brioal.cleanableedittextview.PasswordEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="输入密码"/>
+
+</LinearLayout>
