@@ -12,6 +12,7 @@
     <com.brioal.cleanableedittextview.ClearEditText
         android:id="@+id/main_editText"
         android:layout_width="match_parent"
+        app:is_phone="true"
         android:layout_height="wrap_content"
         android:hint="输入用户名"/>
 
