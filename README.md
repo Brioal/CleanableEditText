@@ -8,7 +8,7 @@
 		}
 	}
  ```
-### Step 2. Add the dependency
+### Step 2. Add the dependency [![](https://www.jitpack.io/v/Brioal/CleanableEditText.svg)](https://www.jitpack.io/#Brioal/CleanableEditText)
 ```
 	dependencies {
 	        compile 'com.github.Brioal:CleanableEditText:1.0'
